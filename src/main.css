@@ -6,6 +6,8 @@ nav{
     padding:10px;
     background-color: #284B63;
     color: white;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 nav a {
     overflow:hidden;
