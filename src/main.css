@@ -1,7 +1,9 @@
 body{
     background-color: #93A8AC;
+    font-family:'Trebuchet MS';
 }
 nav{
+    font-size: 24px;
     overflow:hidden;
     width:100%;
     margin: -8px;
@@ -25,7 +27,9 @@ nav a {
     color: #424B54;
 }
 /*#3C6E71*/
-
+#about{
+    float:right;
+}
 nav a:hover:not(#currentPage){
-    background-color: white;
+    background-color: #3C6E71;
 }
