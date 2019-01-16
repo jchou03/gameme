@@ -1,0 +1,18 @@
+body{
+    background-color: #93A8AC;
+}
+nav{
+    margin: -8px;
+    padding:10px;
+    background-color: #284B63;
+    color: white;
+}
+nav a {
+    overflow:hidden;
+    padding:10px;
+    background-color: #284B63;
+}
+#currentPage{
+    background-color: #F2DC5D;
+    color: #424B54;
+}
