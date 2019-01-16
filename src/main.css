@@ -23,7 +23,7 @@ nav a {
     padding-right:20px;
     background-color: #284B63;
 }
-#currentPage{
+.currentPage{
     background-color: #F2DC5D;
     color: #424B54;
 }
