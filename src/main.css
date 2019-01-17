@@ -1,3 +1,7 @@
+body,html{
+    padding:0px;
+    margin:0px;
+}
 body{
     background-color: #93A8AC;
     font-family:'Trebuchet MS';
@@ -6,7 +10,6 @@ nav{
     font-size: 24px;
     overflow:hidden;
     width:100%;
-    margin: -8px;
     padding:0px;
     background-color: #284B63;
     padding-left: 0px;
@@ -42,6 +45,16 @@ nav a:hover:not(#currentPage){
     border-radius: 4px; 
     margin-left: 35%; 
     margin-right: 35%;
+}
+footer{
+    background-color:#284B63;
+    width:100%;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.footerContent{
+    margin:10px;
+    text-align:center;
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
