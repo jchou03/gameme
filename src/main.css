@@ -8,13 +8,13 @@ body{
 }
 nav{
     font-size: 24px;
-    overflow:hidden;
+    /*overflow:hidden;*/
     width:100%;
     padding:0px;
     background-color: #284B63;
     padding-left: 0px;
     padding-right: 0px;
-    position:fixed;
+    /*position:fixed;*/
 }
 nav a {
     text-decoration:none;
