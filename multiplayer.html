@@ -15,10 +15,11 @@
                 Game Review
             </h1>
         <nav>
-            <a href="index.html" >Home</a>
-            <a href="multiplayer.html" class="currentPage">Multiplayer Games</a>
-            <a href="singleplayer.html" >Single Player Games</a>
-            <a href="aboutus.html" id="about">About Us</a>
+                <div id="navbar">
+                        <a class="active" href="javascript:void(0)">Home</a>
+                        <a href="javascript:void(0)">News</a>
+                        <a href="javascript:void(0)">Contact</a>
+                </div>
         </nav>
         </div>
         <div style="margin-top:150px; height:400px">
@@ -45,7 +46,20 @@
             </p>
             
         </div>
-       
+        <script>
+                window.onscroll = function() {myFunction()};
+                    
+                var navbar = document.getElementById("navbar");
+                var sticky = navbar.offsetTop;
+                    
+                function myFunction() {
+                    if (window.pageYOffset >= sticky) {
+                        navbar.classList.add("sticky")
+                    } else {
+                        navbar.classList.remove("sticky");
+                    }
+                   }
+            </script>
     </body>
 </html>
 
