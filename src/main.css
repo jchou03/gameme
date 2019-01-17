@@ -34,7 +34,7 @@ nav a {
 #about{
     float:right;
 }
-nav a:hover:not(#currentPage){
+nav a:hover:not(.currentPage){
     background-color: #3C6E71;
 }
 #title{
@@ -47,14 +47,27 @@ nav a:hover:not(#currentPage){
     margin-right: 35%;
 }
 footer{
+    display:block;
     background-color:#284B63;
     width:100%;
     padding-top:5px;
     padding-bottom:5px;
+    bottom:0;
+    margin-bottom:-20px;
 }
 .footerContent{
-    margin:10px;
     text-align:center;
+    color:white;
+    font-family:'Trebuchet MS';
+}
+.actualContent{
+    margin:10px;
+    margin-top:50px;
+    overflow:auto;
+
+}
+.spookyGhost{
+    float:right;
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
