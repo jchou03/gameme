@@ -8,7 +8,7 @@ body{
 }
 nav{
     font-size: 24px;
-    overflow:visible;
+    overflow:hidden;
     width:100%;
     padding:0px;
     background-color: #284B63;
@@ -83,3 +83,18 @@ footer{
   .sticky + .content {
     padding-top: 60px;
   }
+  #navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
