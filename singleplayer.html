@@ -10,18 +10,19 @@
         <script src="main.js"></script>
     </head>
     <body>
-        <div >
-            <h1 id="title">
-                Game Review
-            </h1>
-        <nav>
-            <a href="index.html" >Home</a>
-            <a href="multiplayer.html" >Multiplayer Games</a>
-            <a href="singleplayer.html" class="currentPage">Single Player Games</a>
-            <a href="aboutus.html" id="about">About Us</a>
-        </nav>
+            <h1 id="title" class="header">
+                    Game Review
+                </h1>
+            
+            <div id="navbar">
+                    <a href="index.html" >Home</a>
+                    <a href="multiplayer.html" >Multiplayer Games</a>
+                    <a href="singleplayer.html" id="currentPage" style="background-color: #F2DC5D; color: #424B54;">Single Player Games</a>
+                    <a href="aboutus.html" class="about">About Us</a>
+            </div>
         </div>
-        <div class="actualContent">
+        <div class="content">
+            <div class="actualContent">
             <h2 style="text-align:center; font-size: 45px; margin-bottom: -3px">
                 Soft Body Pong
             </h2>
@@ -31,6 +32,7 @@
    <br/>
                 TL;DR Tis good game
             </p>
+            </div>
         </div>
          <footer>
             <div class="footerContent">
@@ -38,6 +40,20 @@
             </div>
         </footer>
        
+        <script>
+                window.onscroll = function() {myFunction()};
+                
+                var navbar = document.getElementById("navbar");
+                var sticky = navbar.offsetTop;
+                
+                function myFunction() {
+                  if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                  } else {
+                    navbar.classList.remove("sticky");
+                  }
+                }
+                </script>
     </body>
 </html>
 

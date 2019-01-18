@@ -63,9 +63,8 @@ footer{
     font-family:'Trebuchet MS';
 }
 .actualContent{
-    margin:10px;
-    margin-top:20px;
     overflow:auto;
+    width:100%;
 
 }
 .spookyGhost{

@@ -10,17 +10,18 @@
         <script src="main.js"></script>
     </head>
     <body>
-        <div >
-            <h1 id="title">
-                Game Review
-            </h1>
-        <nav>
-            <a href="index.html" >Home</a>
-            <a href="multiplayer.html" >Multiplayer Games</a>
-            <a href="singleplayer.html" >Single Player Games</a>
-            <a href="aboutus.html" id="about" class="currentPage">About Us</a>
-        </nav>
+            <h1 id="title" class="header">
+                    Game Review
+                </h1>
+            
+            <div id="navbar">
+                    <a href="index.html" >Home</a>
+                    <a href="multiplayer.html" >Multiplayer Games</a>
+                    <a href="singleplayer.html" >Single Player Games</a>
+                    <a href="aboutus.html" class="about" id="currentPage" style="background-color: #F2DC5D; color: #424B54;">About Us</a>
+            </div>
         </div>
+        <div>
         <h2 style="font-size:30px;margin-top: 100px">
             Our People
         </h2>
@@ -39,6 +40,25 @@
             <br/>
             Biggest Weeb
         </p>
-       
+        </div>
+        <footer>
+                <div class="footerContent">
+                    <h2>brought to you by a couple of idiots</h2>
+                </div>
+            </footer>
+        <script>
+                window.onscroll = function() {myFunction()};
+                
+                var navbar = document.getElementById("navbar");
+                var sticky = navbar.offsetTop;
+                
+                function myFunction() {
+                  if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                  } else {
+                    navbar.classList.remove("sticky");
+                  }
+                }
+                </script>
     </body>
 </html>

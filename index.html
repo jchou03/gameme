@@ -8,67 +8,59 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
         <script src="main.js"></script>
-        <script>
-            // When the user scrolls the page, execute myFunction 
-            window.onscroll = function() {myFunction()};
-
-            // Get the navbar
-            var navbar = document.getElementsByTagName(nav);
-            // Get the offset position of the navbar
-            var sticky = navbar.offsetTop;
-
-            // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-            function myFunction() {
-            if (window.pageYOffset >= sticky) {
-                navbar.classList.add("sticky")
-            } else {
-                navbar.classList.remove("sticky");
-            }
-            }
-        </script>
+        
     </head>
     <body>
-        <div >
-            <h1 id="title">
-                Game Review
-            </h1>
-            <nav>
-                <a href="index.html" class="currentPage">Home</a>
-                <a href="multiplayer.html" >Multiplayer Games</a>
-                <a href="singleplayer.html" >Single Player Games</a>
-                <a href="aboutus.html" id="about">About Us</a>
-            </nav>
-        </div>
-
-        <div class="actualContent">
-                 <h2 style="font-size:30px; text-align:center;">
-                    Where you'll find all your meme oriented reviews (Probably not)
-                </h2>
-            <img src="Screenshot (26).png" class="spookyGhost">
-            <p>I am a spicy tomato</p>
-                 
-        </div>
-
-        <footer>
-            <div class="footerContent">
-                <h2>brought to you by a couple of idiots</h2>
+            <h1 id="title" class="header">
+                    Game Review
+                </h1>
+            
+            <div id="navbar">
+                    <a href="index.html" id="currentPage" style="background-color: #F2DC5D; color: #424B54;">Home</a>
+                    <a href="multiplayer.html" >Multiplayer Games</a>
+                    <a href="singleplayer.html" >Single Player Games</a>
+                    <a href="aboutus.html" class="about">About Us</a>
             </div>
-        </footer>
-
-        <script>
-            window.onscroll = function() {myFunction()};
-                
-            var navbar = document.getElementById("navbar");
-            var sticky = navbar.offsetTop;
-                
-            function myFunction() {
-                if (window.pageYOffset >= sticky) {
-                    navbar.classList.add("sticky")
-                } else {
-                    navbar.classList.remove("sticky");
-                }
-               }
-        </script>
+            
+            <div class="content">
+                    <div class="actualContent">
+                            <h2 style="font-size:30px; text-align:center;">
+                               Where you'll find all your meme oriented reviews (Probably not)
+                           </h2>
+                       <img src="Screenshot (26).png" class="spookyGhost">
+                       <p>I am a spicy tomato</p>
+                       <h2 style="text-align:center; font-size: 45px; margin-bottom: -3px">
+                            League of Legends
+                            </h2>   
+                            <p style="font-size:20px">
+                                   <img src="https://cdnb.artstation.com/p/assets/images/images/001/207/103/large/suke-f3f2f67def084f55884e5ef9e4e87a80.jpg" style="height:400px; float:left; margin-right: 10px">
+                                RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle
+                   <br/>
+                                TL;DR League is toxic like Britney Spears
+                            </p>
+                   </div>
+           
+                   
+            </div>
+            <footer>
+                    <div class="footerContent">
+                        <h2>brought to you by a couple of idiots</h2>
+                    </div>
+                </footer>
+            <script>
+                    window.onscroll = function() {myFunction()};
+                    
+                    var navbar = document.getElementById("navbar");
+                    var sticky = navbar.offsetTop;
+                    
+                    function myFunction() {
+                      if (window.pageYOffset >= sticky) {
+                        navbar.classList.add("sticky")
+                      } else {
+                        navbar.classList.remove("sticky");
+                      }
+                    }
+                    </script>
     </body>
 </html>
 
