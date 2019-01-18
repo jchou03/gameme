@@ -6,62 +6,57 @@
 </head>
 <body>
 
-
-    <div class="row">
-        <h1 id="title">
-            Game Review
-        </h1>
-        <nav>
-            <div id="navbar">
-                <a href="index.html" >Home</a>
-                <a href="multiplayer.html" class="currentPage" >Multiplayer Games</a>
-                <a href="singleplayer.html" >Single Player Games</a>
-                <a href="aboutus.html" id="about">About Us</a>
-            </div>
-        </nav>
-    </div>
-
-
-<div class="actualContent">
+        <div class="header">
+          <h2>Scroll Down</h2>
+          <p>Scroll down to see the sticky effect.</p>
+        </div>
+        
+        <div id="navbar">
+          <a class="active" href="javascript:void(0)">Home</a>
+          <a href="javascript:void(0)">News</a>
+          <a href="javascript:void(0)">Contact</a>
+        </div>
+        
+        <div class="content">
         <h2 style="text-align:center; font-size: 45px; margin-bottom: -3px">
-                Fortnite
-                </h2>   
-                <p style="font-size:20px" style="float:left">
-                       <img src="https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_Fortnite_image1600w.jpg" style="height:400px; float:left; margin-right: 10px">
-                    RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle
-       <br/>
-                    TL;DR Fornite is ass
-                </p>
-                
-            </div>
-             <div class="actualContent">
-                 <h2 style="text-align:center; font-size: 45px; margin-bottom: -3px">
-                League of Legends
-                </h2>   
-                <p style="font-size:20px">
-                       <img src="https://cdnb.artstation.com/p/assets/images/images/001/207/103/large/suke-f3f2f67def084f55884e5ef9e4e87a80.jpg" style="height:400px; float:left; margin-right: 10px">
-                    RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle
-       <br/>
-                    TL;DR League is toxic like Britney Spears
-                </p>
-                
-            </div>
-</div>
-
-<script>
-window.onscroll = function() {myFunction()};
-
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-</script>
-
-</body>
+                        Fortnite
+                        </h2>   
+                        <p style="font-size:20px" style="float:left">
+                               <img src="https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_Fortnite_image1600w.jpg" style="height:400px; float:left; margin-right: 10px">
+                            RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle
+               <br/>
+                            TL;DR Fornite is ass
+                        </p>
+                        
+                    </div>
+                     <div class="actualContent">
+                         <h2 style="text-align:center; font-size: 45px; margin-bottom: -3px">
+                        League of Legends
+                        </h2>   
+                        <p style="font-size:20px">
+                               <img src="https://cdnb.artstation.com/p/assets/images/images/001/207/103/large/suke-f3f2f67def084f55884e5ef9e4e87a80.jpg" style="height:400px; float:left; margin-right: 10px">
+                            RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle RAbble Rabble rablle
+               <br/>
+                            TL;DR League is toxic like Britney Spears
+                        </p>
+                        
+                    </div>
+        </div>
+        
+        <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>
+        
+        </body>
 </html>
